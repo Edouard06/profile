@@ -1,0 +1,95 @@
+body {
+  background-color: #232946;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  line-height: normal;
+}
+
+p {
+  color: #fffffe;
+  width: 500px;
+  padding: 10px;
+}
+
+h1, h3 {
+  color: #eebbc3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  line-height: normal;
+  text-align: center;
+}
+
+a {
+  color: #eebbc3;
+  text-decoration: dashed;
+}
+
+a:hover {
+  color: #bd3e28;
+  transition: 2s ease;
+}
+
+.pdp {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container, #card {
+  margin: 0 auto 20px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 3px solid;
+}
+
+#card {
+  background-color: #232946;
+  box-shadow: #4d4927;
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 3px solid;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.button {
+  background-color: blue;
+  font-weight: bold;
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+@media (max-width: 960px) {
+  .container, #card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container, #card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container, #card {
+    width: 300px;
+  }
+}
