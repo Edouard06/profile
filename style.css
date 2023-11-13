@@ -3,15 +3,28 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
   line-height: normal;
+  text-align: center;
+
 }
 
 p {
-  color: #fffffe;
+  color: whitesmoke;
   width: 500px;
-  padding: 10px;
+  padding: 30px;
+  line-height: normal;
+  text-align: center;
+  margin: auto;
 }
 
-h1, h3 {
+h1 {
+  color: #0e4bcf;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  line-height: normal;
+  text-align: center;
+}
+
+h3 {
   color: #eebbc3;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
@@ -20,24 +33,35 @@ h1, h3 {
 }
 
 a {
-  color: #eebbc3;
+  color: white;
   text-decoration: dashed;
 }
 
 a:hover {
-  color: #bd3e28;
+  color: rgb(221, 51, 51);
   transition: 2s ease;
 }
 
 .pdp {
-  width: 100px;
+  width: 150px;
   height: auto;
   border-radius: 50px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
+}
 
+.mountains-background {
+  background: url('https://content.codecademy.com/courses/freelance-1/unit-6/blues.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .container, #card {
@@ -49,8 +73,7 @@ a:hover {
 }
 
 #card {
-  background-color: #232946;
-  box-shadow: #4d4927;
+  box-shadow: #37274d;
   margin: 0 auto;
   width: 500px;
   padding: 10px;
@@ -69,9 +92,8 @@ a:hover {
 
 
 .button {
-  background-color: blue;
+  background-color:rgb(106, 160, 221);
   font-weight: bold;
-  width: 500px;
   margin: 0 auto;
   display: inline-block;
 }
